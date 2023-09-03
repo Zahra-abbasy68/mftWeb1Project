@@ -1,0 +1,738 @@
+header {
+  width: 100%;
+  height: 170px;
+}
+div.head {
+  width: 100%;
+  height: 170px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  margin-left: 50px;
+}
+div.head > div.headerTop {
+  width: inherit;
+  height: 60px;
+}
+div.head > div.headerTop > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+div.head > div.headerBottom {
+  width: 100%;
+  height: 110px;
+  background-color: white;
+  box-shadow: 0 1px 2px lightgrey;
+}
+div.head > div.headerBottom > div.bTop {
+  width: inherit;
+  height: 70px;
+  background-color: white;
+  position: relative;
+}
+div.head > div.headerBottom > div.bTop > div.logo {
+  width: 10%;
+  height: inherit;
+
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+div.head > div.headerBottom > div.bTop > div.logo > svg {
+  width: 100%;
+
+  margin-top: 20px;
+}
+
+div.head > div.headerBottom > div.bTop > div.search {
+  width: 30%;
+  height: inherit;
+
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+  position: relative;
+}
+div.head > div.headerBottom > div.bTop > div.search > i {
+  position: absolute;
+  left: 5%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+}
+div.head > div.headerBottom > div.bTop > div.search > input[type="text"] {
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  background-color: #f1f2f4;
+  border: unset;
+  border-radius: 10px;
+  padding-right: 15px;
+  font-family: yekan;
+}
+div.head > div.headerBottom > div.bTop > div.search > input[type="text"]:focus {
+  outline: unset;
+}
+div.head
+  > div.headerBottom
+  > div.bTop
+  > div.search
+  > input[type="text"]::placeholder {
+  font-size: 11px;
+}
+
+div.head > div.headerBottom > div.bTop > div.login {
+  width: 20%;
+  height: inherit;
+
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+  padding-right: 10px;
+  position: absolute;
+  left: 20px;
+  top: 0;
+}
+div.head > div.headerBottom > div.bTop > div.login > a {
+  display: inline-block;
+  width: 50%;
+  height: 40px;
+  background-color: white;
+  margin: 15px auto;
+  text-align: center;
+  line-height: 40px;
+  font-family: yekan;
+  text-decoration: none;
+  font-size: 12px;
+  color: #2b2b2b;
+  word-spacing: 0px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  position: absolute;
+  left: 25%;
+  top: 3%;
+}
+div.head > div.headerBottom > div.bTop > div.login > a > i {
+  font-size: 18px;
+
+  vertical-align: middle;
+  transform: rotate(180deg);
+  margin: 0 5px;
+}
+div.head > div.headerBottom > div.bTop > div.login > span {
+  color: lightgrey;
+
+  font-size: 25px;
+  margin-right: 5px;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+div.head > div.headerBottom > div.bTop > div.login > i {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+
+  margin-right: 15px;
+  position: absolute;
+  left: 5%;
+  top: 35%;
+}
+div.headerBottom > div.bBottom {
+  width: 100%;
+  height: 40px;
+  padding-right: 30px;
+}
+div.headerBottom > div.bBottom > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.headerBottom > div.bBottom > nav > div.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+  height: inherit;
+  vertical-align: top;
+}
+div.headerBottom > div.bBottom > nav > div.right > div.parent {
+  /* width: 12.5%; */
+  height: 40px;
+  flex-grow: 1;
+  /* display: inline-block;
+  vertical-align: top;
+  
+  margin-right: -4px; */
+  position: relative;
+}
+
+div.headerBottom > div.bBottom > nav > div.right > div.parent > a {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  color: #2b2b2b !important;
+  height: inherit;
+  line-height: 20px;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 12px;
+}
+div.headerBottom > div.bBottom > nav > div.right > div.parent > a .active {
+  font-weight: bold;
+  font-size: 13px !important;
+}
+div.headerBottom > div.bBottom > nav > div.right > div.parent > a > i {
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+div.headerBottom > div.bBottom > nav > div.right > div.parent > a:hover {
+  border-bottom: 2px solid crimson;
+  border-radius: 2px 0;
+}
+
+div.headerBottom > div.bBottom > nav > div.right > div.parent > div.whole > a {
+  /* display: block; */
+  height: 40px;
+  width: auto;
+  color: #2b2b2b !important;
+  /* height: inherit; */
+  line-height: 20px;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > a
+  .active {
+  font-weight: bold;
+  font-size: 13px !important;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > a
+  > i {
+  margin: 0 10px;
+  font-size: 14px;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > a:hover {
+  border-bottom: 2px solid crimson;
+  border-radius: 2px 0;
+}
+
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.total {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 99;
+  position: absolute;
+  top: 100%;
+  right: -40px;
+  display: none;
+}
+
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu {
+  width: calc(90vw - 60px);
+  height: 50vh;
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: none;
+  z-index: 100;
+  border: 1px solid gainsboro;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 0px 0px inset;
+  border-radius: 0 0 0 5px;
+}
+
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent:nth-of-type(1)
+  > div.whole:hover
+  div.total {
+  display: block;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent:nth-of-type(1)
+  > div.whole:hover
+  > div.subMenu {
+  display: block;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent:nth-of-type(1)
+  > div.whole:hover
+  div.subMenu
+  > div
+  > div.grp:nth-of-type(1)
+  > div.item {
+  display: block;
+}
+
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div {
+  width: 15%;
+  height: 100%;
+  overflow: auto;
+  background-color: #f5f5f5;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgb(243, 242, 242);
+  border-radius: 5px;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div::-webkit-scrollbar-thumb {
+  background-color: rgb(172, 170, 170);
+  border-radius: 5px;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  div.item::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgb(243, 242, 242);
+  border-radius: 5px;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  div.item::-webkit-scrollbar-thumb {
+  background-color: rgb(172, 170, 170);
+  border-radius: 5px;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.fu {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+
+  line-height: 40px;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 11px;
+  color: #3f4064;
+  display: block;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.fu
+  > a {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 11px;
+  color: #3f4064;
+  display: block;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.fu
+  > a
+  > i {
+  margin: 0 20px 0 10px;
+  font-size: 16px;
+  font-size: bold;
+}
+
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  div.item {
+  width: 85%;
+  height: 100%;
+  background-color: white;
+  overflow: auto;
+  position: absolute;
+  left: 0%;
+  top: 0;
+  display: none;
+}
+
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.fu
+  :hover {
+  color: crimson;
+  background-color: #fff;
+}
+
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp:hover
+  > div.item {
+  display: block;
+  background-color: white;
+}
+
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.cap {
+  width: 100%;
+  height: 10%;
+
+  padding-right: 20px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.cap
+  > a {
+  font-family: yekan;
+  font-size: 14px;
+  font-size: bold;
+  color: #3f4064;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.cap
+  > a
+  > i {
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #3f4064;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.sub {
+  width: 100%;
+  height: 90%;
+  padding-right: 20px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.sub
+  > div.content {
+  width: auto;
+  height: 100%;
+  display: inline-block;
+
+  margin-right: -4px;
+  margin-left: 40px;
+  vertical-align: top;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.sub
+  > div.content
+  > ul
+  > a.head {
+  font-family: yekan;
+  font-size: 16px;
+  font-size: bold;
+  color: #080a38;
+  text-decoration: none;
+  display: block;
+  line-height: 40px;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.sub
+  > div.content
+  > ul
+  > a {
+  font-family: yekan;
+  font-size: 13px;
+  font-size: bold;
+  color: #767790;
+  text-decoration: none;
+  display: block;
+  line-height: 40px;
+}
+
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.sub
+  > div.content
+  > ul
+  > a.head
+  > i.fa-pipe {
+  color: crimson;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.sub
+  > div.content
+  > ul
+  > a.head
+  > i.fa-chevron-left {
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 9px;
+  color: #3f4064;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.sub
+  > div.content
+  > ul
+  > a:hover,
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.sub
+  > div.content
+  > ul
+  > a
+  .head:hover {
+  color: crimson;
+}
+div.headerBottom
+  > div.bBottom
+  > nav
+  > div.right
+  > div.parent
+  > div.whole
+  > div.subMenu
+  > div
+  > div.grp
+  > div.item
+  > div.sub
+  > div.content
+  > ul
+  > a
+  .head:hover
+  > i.fa-chevron-left {
+  color: crimson;
+}
+div.headerBottom > div.bBottom > nav > div.left {
+  width: 15%;
+  display: inline-block;
+  margin: 10px 60px 10px 0;
+  position: absolute;
+  left: 0;
+}
+div.headerBottom > div.bBottom > nav > div.left > label {
+  font-family: yekan;
+  font-size: 12px;
+  color: #3f4064;
+  cursor: pointer;
+  text-align: center;
+}
+div.headerBottom > div.bBottom > nav > div.left > label > i {
+  padding-left: 10px;
+  font-size: 17px;
+}
+div.headerBottom > div.bBottom > nav > div.left > label > div {
+  width: inherit;
+  height: 44px;
+  position: absolute;
+  background-color: #23254e;
+  color: whitesmoke;
+  padding: 12px 14px 6px 12px;
+  margin: 8px;
+  border-radius: 5px;
+  top: 100%;
+  display: none;
+}
+div.headerBottom > div.bBottom > nav > div.left > label:hover > div {
+  display: block;
+}

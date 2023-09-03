@@ -1,0 +1,95 @@
+div.wonderful {
+  width: 100%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+div.wonderful > div.items {
+  width: 97%;
+  height: 300px;
+  background-color: crimson;
+  margin: 0 auto;
+  padding: 20px 20px 20px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+div.wonderful > div.items div.imageWow {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+div.wonderful > div.items div.imageWow > img {
+  width: 80%;
+  display: inline-block;
+}
+.changek {
+  flex-flow: column wrap;
+}
+div.wonderful > div.items div.price > div.left,
+div.wonderful > div.items div.price > div.right {
+  display: inline-block;
+  font-size: 20px;
+}
+div.wonderful > div.items div.price > div.left {
+  font-size: 13px;
+  font-family: yekan;
+  text-align: left;
+  width: 55%;
+  font-weight: bold;
+}
+div.wonderful > div.items div.price > div.right {
+  font-size: 13px;
+  font-family: yekan;
+  text-align: right;
+  width: 30%;
+  font-weight: bold;
+}
+div.wonderful > div.items div.price {
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+div.wonderful > div.items div.price > div.right > span {
+  padding: 3px 6px;
+  background-color: crimson;
+  box-sizing: border-box;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+div.wonderful > div.items div.delete {
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 11px;
+  text-decoration: line-through;
+  color: grey;
+}
+div.items div.swiper-slide:nth-of-type(2) {
+  border-radius: 0 10px 10px 0;
+}
+div.items div.swiper-slide:nth-of-type(1) {
+  background: transparent;
+}
+div.wonderful > div.items div.firstImage {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  box-sizing: border-box;
+}
+div.wonderful > div.items div.firstImage > svg {
+  width: 45%;
+}
+div.wonderful > div.items div.firstTop {
+  box-sizing: border-box;
+}
+div.wonderful > div.items div.firstTop > img {
+  padding-right: 20px;
+  width: 140px;
+}
+div.wonderful > div.items div.firstBottom {
+  font-size: 15px;
+  font-family: yekan;
+  font-weight: bold;
+  color: whitesmoke;
+}

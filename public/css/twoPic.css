@@ -1,0 +1,54 @@
+div.twoPic {
+  width: 97%;
+  height: 260px;
+  margin: 24px auto;
+}
+div.twoPic > div {
+  width: 50%;
+  height: inherit;
+  padding: 0 8px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+div.twoPic > div:nth-of-type(2) {
+  margin-right: -4px;
+}
+div.twoPic > div > a {
+  width: 100%;
+  height: inherit;
+  text-decoration: none;
+  border-radius: 16px;
+}
+div.twoPic > div > a > img {
+  width: 100%;
+
+  object-fit: cover;
+
+  border-radius: 16px;
+}
+div.onePic {
+  width: 97%;
+  height: 163px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+div.onePic > div {
+  width: 100%;
+  height: inherit;
+  padding: 0 8px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+div.onePic > div > a {
+  width: 100%;
+  height: inherit;
+  text-decoration: none;
+  border-radius: 16px;
+}
+div.onePic > div > a > img {
+  width: 100%;
+
+  object-fit: cover;
+
+  border-radius: 16px;
+}

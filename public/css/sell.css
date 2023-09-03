@@ -1,0 +1,121 @@
+div.sell {
+  width: 97%;
+  height: 815px;
+  margin: 0 auto;
+  margin-top: 24px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  border: 1px solid #f1f2f4;
+  border-radius: 16px;
+}
+div.sell > div.cap {
+  width: 100%;
+  height: 76px;
+  padding: 16px 0;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  text-align: center;
+}
+div.sell > div.cap > div.title > div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+div.sell > div.cap > div.title > h3 {
+  font-family: yekan;
+  font-size: 22px;
+  font-weight: 500;
+  display: inline;
+}
+div.sell > div.content {
+  width: 100%;
+  height: 730px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+div.sell > div.content > a {
+  text-decoration: none;
+
+  height: 100%;
+  padding: 12px 8px;
+  box-sizing: border-box;
+  border-left: 1px solid #f1f2f4;
+  border-bottom: 1px solid #f1f2f4;
+}
+div.sell > div.content > a:nth-of-type(6),
+div.sell > div.content > a:nth-of-type(12),
+div.sell > div.content > a:nth-of-type(18) {
+  border-left: 0;
+}
+div.sell > div.content > a > div.inside {
+  height: inherit;
+}
+div.sell > div.content > a > div.inside > div.image {
+  width: inherit;
+  text-align: center;
+  margin-bottom: 5px;
+}
+div.sell > div.content > a > div.inside > div.image > img {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  object-fit: cover;
+}
+.changek {
+  flex-flow: column wrap;
+}
+div.sell > div.content > a > div.inside > div.price {
+  width: inherit;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+div.sell > div.content > a > div.inside > div.price > div.left,
+div.sell > div.content > a > div.inside > div.price > div.right {
+  display: inline-block;
+}
+div.sell > div.content > a > div.inside > div.price > div.left {
+  font-size: 13px;
+  font-family: yekan;
+  text-align: left;
+  width: 55%;
+  font-weight: bold;
+  color: #3f4064;
+  vertical-align: top;
+}
+div.sell > div.content > a > div.inside > div.price > div.left > div {
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  font-size: 15px;
+}
+div.sell > div.content > a > div.inside > div.price > div.right {
+  font-size: 10px;
+  font-family: yekan;
+  text-align: right;
+  width: 40%;
+  font-weight: bold;
+}
+div.sell > div.content > a > div.inside > div.price {
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+div.sell > div.content > a > div.inside > div.price > div.right > span {
+  padding: 3px 10px;
+  background-color: crimson;
+  font-size: 11px;
+  box-sizing: border-box;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+div.sell > div.content > a > div.inside > div.delete {
+  text-align: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-family: yekan;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: line-through;
+  color: #c3c3ce;
+  vertical-align: top;
+}

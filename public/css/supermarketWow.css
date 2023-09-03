@@ -1,0 +1,123 @@
+div.superMarketWow {
+  width: 97%;
+  height: 110px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  background: url(../images/supermarket/freshPattern.svg) left center no-repeat
+    rgba(236, 236, 236, 0.856);
+}
+div.superMarketWow > a {
+  text-decoration: none;
+}
+div.superMarketWow div.caption {
+  width: 48%;
+  height: 110px;
+  display: inline-block;
+}
+div.superMarketWow div.caption > img {
+  vertical-align: middle;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+div.superMarketWow div.caption > svg {
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-top: 20px;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+div.superMarketWow div.caption > span {
+  font-size: 14px;
+  padding: 3px 10px;
+  font-family: yekan;
+  direction: none;
+  background-color: green;
+  border-radius: 25px;
+  color: whitesmoke;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+div.superMarketWow div.product {
+  width: 52%;
+  height: 110px;
+
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+}
+
+div.product > div.proImg {
+  width: 75%;
+  height: 110px;
+
+  display: inline-block;
+
+  vertical-align: top;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+div.product > div.proImg > a {
+  margin-right: 8px;
+  text-decoration: none;
+}
+div.product > div.proImg > a > div.content {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+}
+
+div.product > div.proImg > a > div.content > div.cap {
+  position: absolute;
+  bottom: 5px;
+}
+
+div.product > div.proImg img {
+  width: 70px;
+  border-radius: 50%;
+  border: 7px solid white;
+}
+div.product > div.proImg span {
+  padding: 3px 6px;
+  background-color: crimson;
+  box-sizing: border-box;
+  color: whitesmoke;
+
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 12px;
+}
+div.product > div.proCap {
+  width: 25%;
+  height: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -4px;
+  padding-top: 42px;
+  box-sizing: border-box;
+}
+div.product > div.proCap span {
+  padding: 15px 20px;
+  margin-right: 3px;
+  background-color: white;
+  box-sizing: border-box;
+  color: #2bb141;
+  border: 10px whitesmoke;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 12px;
+  text-align: center;
+}
+div.product > div.proCap span > i {
+  padding-right: 8px;
+  padding-top: 5px;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: bottom;
+}

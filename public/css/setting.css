@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: yekan;
+  src: url("../fonts/yekan.woff2");
+  src: url("../fonts/yekan.eot");
+  src: url("../fonts/yekan.ttf");
+  src: url("../fonts/yekan.woff");
+}
+:root {
+  --width: 100%;
+  --height: auto;
+}
+div.wrapper {
+  width: 100%;
+  direction: rtl;
+}
+@media (min-width: 1400px) {
+  div.main {
+    width: 1400px;
+    margin: 0 auto;
+  }
+  div.slider {
+    width: 100vw;
+    height: 400px;
+  }
+  footer > div.container {
+    width: 1400px;
+    height: 85%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1400px) {
+  div.main {
+    width: 100%;
+  }
+  div.slider {
+    width: 100%;
+    height: 400px;
+  }
+  footer > div.container {
+    width: 100%;
+    height: 85%;
+    margin: 0 auto;
+  }
+}

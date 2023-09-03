@@ -1,0 +1,33 @@
+div.offer {
+  width: 100%;
+  height: 150px;
+
+  padding: 35px;
+  box-sizing: border-box;
+  text-align: center;
+}
+div.offer > div.offerItem {
+  width: 100px;
+  height: 100px;
+
+  display: inline-block;
+  margin-right: 50px;
+}
+
+div.offer > div.offerItem img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+div.offer > div.offerItem > a {
+  text-decoration: none;
+}
+div.offer > div.offerItem h4 {
+  font-family: yekan;
+  font-size: 11px;
+  text-align: center;
+}
+div.offer > div.offerItem i {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
